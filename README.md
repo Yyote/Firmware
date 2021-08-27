@@ -12,6 +12,7 @@
   <br>sudo ./install_geographiclib_datasets.sh
 6. Скачиваем симулятор:
   <br>git clone https://github.com/LeekaiDel/Firmware.git
+  <br>sudo bash ~/Firmware/Tools/setup/ubuntu.sh
 7. Building: 
   <br>cd Firmware
   <br>DONT_RUN=1 make px4_sitl_default gazebo
