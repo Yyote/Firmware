@@ -26,4 +26,4 @@
   <br>export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
   <br>export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 9. Теперь мы можем запустить симулятор командой:
-  <br>roslaunch px4 aerobot_second_test.launch
+  <br>roslaunch px4 aerobot_third_test.launch
