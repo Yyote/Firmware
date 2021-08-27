@@ -1,16 +1,16 @@
 1. Установить чистую Ubuntu 20.04 lts.
 2. Сделать обновление ссылок и обновление пакетов ОС с помощью команд:
-  <br>sudo apt update,
+  <br>sudo apt update
   <br>sudo apt upgrade
-2. Установить Ros Noetic
-3. Установить пакеты catkin tools
-4. Установить mavros
+2. Установить Ros Noetic.
+3. Установить пакеты catkin tools.
+4. Установить mavros:
   <br>sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
 5. Установка geographiclib:
   <br>wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
   <br>sudo chmod +x ./install_geographiclib_datasets.sh
   <br>sudo ./install_geographiclib_datasets.sh
-6. Скачиваем симулятор
+6. Скачиваем симулятор:
   <br>git clone https://github.com/LeekaiDel/Firmware.git
 7. Building: 
   <br>cd Firmware
