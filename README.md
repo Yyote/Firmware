@@ -18,6 +18,7 @@
   <br>sudo apt install python3-toml
 7. Building: 
   <br>cd Firmware
+  <br>make clean
   <br>DONT_RUN=1 make px4_sitl_default gazebo
 8. Затем в директории Firmware прописываем следующие команды:
   <br>source ~/catkin_ws/devel/setup.bash # (optional)
