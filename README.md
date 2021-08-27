@@ -13,6 +13,9 @@
 6. Скачиваем симулятор:
   <br>git clone https://github.com/LeekaiDel/Firmware.git
   <br>sudo bash ~/Firmware/Tools/setup/ubuntu.sh
+  <br>sudo apt install python3-packaging
+  <br>sudo apt install python3-jinja2
+  <br>sudo apt install python3-toml
 7. Building: 
   <br>cd Firmware
   <br>DONT_RUN=1 make px4_sitl_default gazebo
