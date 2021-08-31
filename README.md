@@ -3,8 +3,9 @@
   <br>sudo apt update
   <br>sudo apt upgrade
 2. Установить Ros Noetic.
-3. Установить пакеты catkin tools.
-4. Установить mavros:
+3. Установить пакеты catkin tools:
+  <br>sudo apt-get install python3-catkin-tools
+5. Установить mavros:
   <br>sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
 5. Установка geographiclib:
   <br>wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
