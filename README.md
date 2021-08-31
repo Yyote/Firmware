@@ -16,6 +16,8 @@
   <br>sudo apt install python3-packaging
   <br>sudo apt install python3-jinja2
   <br>sudo apt install python3-toml
+  <br>sudo apt update
+  <br>sudo apt upgrade
 7. Building: 
   <br>cd Firmware
   <br>make clean
