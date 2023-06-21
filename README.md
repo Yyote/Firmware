@@ -1,3 +1,7 @@
+# Firmware - README.md
+
+## Установка
+
 1. Установить чистую Ubuntu 20.04 lts.
 2. Сделать обновление ссылок и обновление пакетов ОС с помощью команд:
   ```
@@ -35,12 +39,12 @@
   make clean
   DONT_RUN=1 make px4_sitl_default gazebo
   ```
+
+## Запуск
+
 8. Затем в директории Firmware прописываем следующие команды:
   ```
-  source ~/catkin_ws/devel/setup.bash # (optional)
-  source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+  . start.sh
   ```
 9. Теперь мы можем запустить симулятор командой:
   ```
