@@ -39,14 +39,21 @@
   make clean
   DONT_RUN=1 make px4_sitl_default gazebo
   ```
+8. Для того, чтобы работал лаунч с подвижными QR-кодами, нужно **в ваш воркспэйс** скачать пакет `object_mover_gazebo`:
+  ```bash
+  cd ~/your_ws/src
+  git clone https://github.com/Yyote/object_mover_gazebo.git
+  cd ..
+  catkin_make
+  ```
 
 ## Запуск
 
-8. Затем в директории Firmware прописываем следующие команды:
+9. Затем в директории Firmware прописываем следующие команды:
   ```
   . start.sh
   ```
-9. Теперь мы можем запустить симулятор командой:
+10. Теперь мы можем запустить симулятор командой:
   ```
   roslaunch px4 aerobot_third_test.launch
   ```
