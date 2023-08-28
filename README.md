@@ -8,7 +8,7 @@
   sudo apt update
   sudo apt upgrade
   ```
-2. Установить Ros Noetic.
+2. Установить [Ros Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu).
 3. Установить пакеты catkin tools:
   ```
   sudo apt-get install python3-catkin-tools
@@ -33,7 +33,7 @@
   sudo apt update
   sudo apt upgrade
   ```
-7. Building: 
+7. Building:
   ```
   cd Firmware
   make clean
