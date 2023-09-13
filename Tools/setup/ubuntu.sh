@@ -239,4 +239,8 @@ if [[ $INSTALL_SITL == "true" ]]; then
 	cd ~/Firmware 
 fi
 
+cd ~/Firmware
+git tag v1.12.0
+
+
 echo "ubuntu.sh finished."
